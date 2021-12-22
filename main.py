@@ -12,6 +12,7 @@ faker = Faker()
 
 
 def title_gen() -> str:
+    """Добавить комментарии"""
     k = open("books.txt")
     data = k.read()
     lines = data.split("\n")
